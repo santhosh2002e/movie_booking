@@ -13,6 +13,7 @@ e.grid(row=0, column=0, columnspan=4)
 # Button click function
 def button_click(number):
     current = e.get()
+    print()
     e.delete(0, END)
     e.insert(0, str(current) + str(number))
 
